@@ -1,0 +1,19 @@
+.search-field {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container {
+  padding-left: 77px;
+  padding-right: 77px;
+  padding-top: 0;
+  margin-bottom: 48px;
+}
+
+.search-input {
+  width: 95%;
+  padding: 7px;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
