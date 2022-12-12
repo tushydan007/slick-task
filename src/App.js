@@ -1,7 +1,10 @@
 import "./App.css";
-import MovieList from "./pages/MovieList";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import Navbar from "./components/navbar/Navbar";
+import Hero from "./components/hero/Hero";
+import Input from "./components/input/Input";
+import CartList from "./components/cartList/CartList";
 
 function App() {
   const [movies, setMovies] = useState([]);
@@ -18,9 +21,12 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <MovieList />
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Input />
+      <CartList movies={movies} />
+    </>
   );
 }
 

@@ -9,18 +9,17 @@
   padding-left: 77px;
   padding-bottom: 159px;
   margin-right: auto;
+  justify-content: flex-start;
+  height: 100vh;
 }
 
 .hero-heading-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  min-width: 20%;
-}
-p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 3rem;
+  flex-direction: column;
+  font-size: 1.7rem;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 95px;
+  line-height: 75px;
 }
 
 .header1 {
